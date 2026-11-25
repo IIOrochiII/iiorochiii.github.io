@@ -1,34 +1,46 @@
 <!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oro – projekty</title>
+<meta name="description" content="Portfolio projektów studenta informatyki.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="name">Oro</h1>
+    <p class="lead" id="bio"></p>
+    <div class="links" id="contact"></div>
+  </header>
 
-<html lang = "en">
-  <head>
-   <title>DanielMainPage</title> 
-   <meta charset ="utf-8" name="DanielMainPage" content=""/>
-    <link rel ="stylesheet" type = "text/css" href="style.css"/>
-  </head>
-  <body>
+  <main>
+    <section id="sec-projects" aria-labelledby="h-projects">
+      <div class="bar" role="group" aria-label="Filtr projektów">
+        <h2 id="h-projects">Projekty</h2>
+        <span class="filters" id="filters-projects"></span>
+      </div>
+      <ul class="projects" id="list-projects"></ul>
+      <p class="empty" id="empty-projects" hidden>Brak projektów z tym tagiem.</p>
+    </section>
 
-<h1>
-Daniel's Cabin
-</h1>
-    <img src="fire.gif" alt="Cabin" title="To fell cozy for you :)">
-<p>If you want to see my projects and personal info feel free to <a href="./another"> check this</a>  </p>
-<h1><b>Technologies J use</b></h1>
-<ul>
-  <li><u>Java</u></li>
-  <li><u>Python</u></li>
-  <li><u>Cpp</u></li>
-</ul>
+    <section id="sec-repos" aria-labelledby="h-repos" hidden>
+      <div class="bar" role="group" aria-label="Filtr repozytoriów">
+        <h2 id="h-repos">Repozytoria</h2>
+        <span class="filters" id="filters-repos"></span>
+      </div>
+      <ul class="projects" id="list-repos"></ul>
+      <p class="empty" id="empty-repos" hidden></p>
+    </section>
+  </main>
 
-<h1>
-Software that i use daily
-</h1>
+  <footer>© <span id="year"></span> <span id="footname"></span></footer>
+</div>
 
-<p><a href="https://github.com/kovidgoyal/kitty"><img src="./terminalicon.webp" height = 50px alt=""></a>
-   <a href="https://github.com/neovim/neovim"><img src="./Text-Edit-icon.webp" height = 50px alt=""></a>
-   <a href="https://librewolf.net/"><img src="./browser.webp" height = 50px alt=""></a>
-   <a href="https://github.com/ranger/ranger"><img src="./explorer.webp" height=50px alt=""></a>
-    </p>
-
-  </body>
+<script src="script.js"></script>
+</body>
 </html>
