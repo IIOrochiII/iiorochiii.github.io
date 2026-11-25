@@ -29,6 +29,14 @@ const PROJECTS = [
     repo: "https://github.com/IIOrochiII/ray-snake",
     demo: ""
   },
+    {
+    title: "Best Budget Planer",
+    date: "2026",
+    desc: "Projekt zrealizowany na zajęciach z Filipem.N oraz Juliuszem.R, aplikacja do sterowania wydatkami oraz dysponowaniem czasem.",
+    tags: ["Javascript", "Html","WebDev","Rest"],
+    repo: "https://github.com/IIOrochiII/ray-snake",
+    demo: ""
+  },
   // {
     // title: "Nazwa projektu",
     // date: "2025",
