@@ -21,6 +21,14 @@ const PROJECTS = [
     repo: "https://github.com/IIOrochiII/Dyplom",
     demo: ""
   },
+  {
+    title: "RaySnake",
+    date: "2026",
+    desc: "Klon kultowej gry snake stworzony w języku C przy pomocy RayLib",
+    tags: ["C", "Raylib"],
+    repo: "https://github.com/IIOrochiII/ray-snake",
+    demo: ""
+  },
   // {
     // title: "Nazwa projektu",
     // date: "2025",
