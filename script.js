@@ -59,7 +59,7 @@ const PROJECTS = [
       en: "A desktop app with a Tkinter GUI: point transforms, image blending, histogram operations, and low-pass, high-pass and statistical filters, all implemented from scratch."
     },
     tags: ["Python", "Tkinter", "Pillow", { pl: "Przetwarzanie obrazu", en: "Image processing" }],
-    repo: "", // TODO: wklej link do repozytorium, np. "https://github.com/IIOrochiII/NAZWA-REPO"
+    repo: "https://github.com/IIOrochiII/PyFilters", // TODO: wklej link do repozytorium, np. "https://github.com/IIOrochiII/NAZWA-REPO"
     demo: ""
   },
   {
@@ -70,8 +70,20 @@ const PROJECTS = [
       en: "A web app for managing an organization structure: departments are shown as a tree and can be re-parented by dragging them onto another department. Spring Boot REST API with PostgreSQL running in Docker."
     },
     tags: ["Java", "Spring Boot", "React", "TypeScript", "PostgreSQL", "Docker"],
-    repo: "https://github.com/IIOrochiII/organization-app", // popraw, jeśli repozytorium nazywa się inaczej
-    demo: ""
+    repo:  "https://github.com/IIOrochiII/managment-app"
+, // popraw, jeśli repozytorium nazywa się inaczej
+    demo: "https://github.com/IIOrochiII/managment-app"
+  },
+  {
+  title: { pl: "Dokumentacja Projektu Kino", en: "Cinema App Documentation" },
+  date: "2026",
+  desc: {
+    pl: "Dokumentacja Aplikacji służącej do obsługi kina, zawiera kompleksowy opis agentów, przepływu zdarzeń, diagramu klas, aktorów",
+    en: "Documentation of Cinema Application, describes actors in system,events also includes flow charts, class diagrams."
+  },
+  tags: ["Documentation", "System Engineering", "Project Documentation", "WebDev"],
+  repo: "https://mega.nz/file/YPtXxZoZ#Oe6vsrP5qCucNbzNq-vc86rjp1B6sTbE1HLaY6_a9OQ", // popraw, jeśli repozytorium nazywa się inaczej
+  demo: ""
   },
   // {
     // title: { pl: "Nazwa projektu", en: "Project name" },
