@@ -62,6 +62,17 @@ const PROJECTS = [
     repo: "", // TODO: wklej link do repozytorium, np. "https://github.com/IIOrochiII/NAZWA-REPO"
     demo: ""
   },
+  {
+    title: { pl: "Organization App: drzewo organizacji", en: "Organization App: org chart" },
+    date: "2026",
+    desc: {
+      pl: "Aplikacja webowa do zarządzania strukturą organizacyjną: działy wyświetlane jako drzewo, a ich przynależność zmienia się przeciągnięciem na inny dział. REST API w Spring Boot, baza PostgreSQL w Dockerze.",
+      en: "A web app for managing an organization structure: departments are shown as a tree and can be re-parented by dragging them onto another department. Spring Boot REST API with PostgreSQL running in Docker."
+    },
+    tags: ["Java", "Spring Boot", "React", "TypeScript", "PostgreSQL", "Docker"],
+    repo: "https://github.com/IIOrochiII/organization-app", // popraw, jeśli repozytorium nazywa się inaczej
+    demo: ""
+  },
   // {
     // title: { pl: "Nazwa projektu", en: "Project name" },
     // date: "2025",
